@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <assemble.output.directory>/home/gokahanabi/Desktop</assemble.output.directory>
+        <assemble.output.directory>C:\Users\Masraf2\Desktop</assemble.output.directory>
     </properties>
 
     <build>
@@ -34,7 +34,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>spdbTracker.view.MainFrame</mainClass>
+                            <mainClass>com.gokhanabi.com.gokhanabi.com.gokhanabi.main.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
