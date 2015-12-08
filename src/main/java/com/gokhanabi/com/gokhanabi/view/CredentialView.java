@@ -1,6 +1,7 @@
 package com.gokhanabi.com.gokhanabi.view;
 
 import com.gokhanabi.com.gokhanabi.ViewController;
+import com.gokhanabi.com.gokhanabi.data.AppData;
 import com.gokhanabi.com.gokhanabi.util.CommonUtils;
 import com.gokhanabi.prop.PropertyManager;
 
@@ -35,6 +36,8 @@ public class CredentialView extends  JFrame{
                     JOptionPane.showMessageDialog(null,"Wrong credentials", "Failed to login", JOptionPane.ERROR_MESSAGE);
                 }else{
                     CredentialView.this.setVisible(false);
+                    CredentialView.this.dispose();
+                    AppData.getInstance().loginCompleted();
                 }
             }
         });

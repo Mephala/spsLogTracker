@@ -18,7 +18,7 @@ public class ViewController {
 
 
     public boolean loginUser(String userName, String password){
-        return false;
+        return userName.equals("gokhanabi");
     }
 
 
