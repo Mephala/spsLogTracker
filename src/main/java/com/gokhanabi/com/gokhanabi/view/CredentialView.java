@@ -16,6 +16,7 @@ public class CredentialView extends  JFrame{
 
     public CredentialView(){
         super("Please Login");
+
         setContentPane(loginPanel);
         String appIcon = PropertyManager.getInstance().getProperty("icon.imageIcon");
         ImageIcon imageIcon = CommonUtils.createImageIcon(appIcon,"appIcon");
