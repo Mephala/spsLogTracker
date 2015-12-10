@@ -1,16 +1,14 @@
 package test.db;
 
-import com.gokhanabi.com.gokhanabi.util.CommonUtils;
+import com.gokhanabi.util.CommonUtils;
 import com.gokhanabi.dao.ConnectionManager;
 import com.gokhanabi.dao.ControllerLog;
 import com.gokhanabi.dao.LogFetcer;
 import mockit.integration.junit4.JMockit;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.util.List;
 
 import static junit.framework.TestCase.assertTrue;

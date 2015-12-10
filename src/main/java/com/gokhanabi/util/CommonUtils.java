@@ -1,4 +1,4 @@
-package com.gokhanabi.com.gokhanabi.util;
+package com.gokhanabi.util;
 
 import javax.swing.*;
 import java.awt.*;

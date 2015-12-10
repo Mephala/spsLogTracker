@@ -11,7 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <assemble.output.directory>C:\Users\Gokhan\Desktop</assemble.output.directory>
+        <assemble.output.directory>C:\Users\Masraf2\Desktop</assemble.output.directory>
     </properties>
 
     <build>
@@ -37,7 +37,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.gokhanabi.com.gokhanabi.com.gokhanabi.main.Main</mainClass>
+                            <mainClass>com.gokhanabi.main.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -110,6 +110,12 @@
             <groupId>com.intellij</groupId>
             <artifactId>forms_rt</artifactId>
             <version>7.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>service-provider</groupId>
+            <artifactId>service-provider-client</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
